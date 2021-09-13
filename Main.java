@@ -14,11 +14,15 @@ class Main {
 
    float totPets = userPets*(userYear -2020)+userPets;
 
-   System.out.print("Type of animal: " + userPet);
+   System.out.print("Type of Animal: " + userPet);
 
-   System.out.print("\nStarting ammount" + userPets);
+   System.out.print("\nStarting Ammount: " + userPets);
 
-   System.out.print("\n ")
+   System.out.print("\nCurrent Year: 2020 ");
+
+   System.out.print("\nProjection Year: " + userYear);
+
+   System.out.print("\nProjected Population: " + totPets);
 
 
 
