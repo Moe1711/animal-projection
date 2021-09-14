@@ -7,10 +7,10 @@ class Main {
    String  userPet = input.nextLine();
 
    System.out.println("Enter the starting ammount.");
-   int userPets = input.nextInt(); 
+   int userPets = Integer.parseInt(input.nextLine());
 
    System.out.println("Enter the projection year.");
-   int userYear = input.nextInt(); 
+   int userYear = Integer.parseInt(input.nextLine());
 
    float totPets = userPets*(userYear -2020)+userPets;
 
